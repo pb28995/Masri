@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+<categories>
+<category>
+<category_id>6</category_id>
+<category_name>Apartment for sell</category_name>
+<parent_id>0</parent_id>
+<category_order>1</category_order>
+<status>1</status>
+<user_id>5</user_id>
+<sub_categories>
+<sub_category>
+<category_id>8</category_id>
+<category_name>Small ap for sell</category_name>
+<parent_id>6</parent_id>
+<category_order>1</category_order>
+<status>1</status>
+<user_id>5</user_id>
+</sub_category>
+</sub_categories>
+</category>
+<category>
+<category_id>7</category_id>
+<category_name>Apartment for rent</category_name>
+<parent_id>0</parent_id>
+<category_order>2</category_order>
+<status>1</status>
+<user_id>5</user_id>
+<sub_categories/>
+</category>
+</categories>
+<products>
+<product>
+<product_id>1</product_id>
+<product_name>Amazing apartment</product_name>
+<product_category>8</product_category>
+<product_city>3</product_city>
+<product_district>3</product_district>
+<product_note>
+amazing apartment for sell by trusted company its blablabla
+</product_note>
+<sales_phone>0123456789</sales_phone>
+<sales_email>info@salesperson.com</sales_email>
+<show_in_slider>1</show_in_slider>
+<price_before_discount>100000.00</price_before_discount>
+<price_discount_percentage>50.00</price_discount_percentage>
+<price_currency_symbol>£</price_currency_symbol>
+<product_order>1</product_order>
+<product_status>1</product_status>
+<user_id>5</user_id>
+<creation_date>2016-01-15 04:12:45</creation_date>
+<category_name>Small ap for sell</category_name>
+<city_name>Cairo</city_name>
+<district_name>Nasr City</district_name>
+<geo_zones>
+<geo_zone>
+<zone_id>1</zone_id>
+<zone_name>Nasr City</zone_name>
+<longitude>1.33301241</longitude>
+<latitude>1.32521141</latitude>
+<radius_length>1.000</radius_length>
+<impressions>0</impressions>
+<sent>0</sent>
+<user_id>5</user_id>
+<status>1</status>
+</geo_zone>
+</geo_zones>
+<product_specs>
+<product_spec>
+<spec_id>6</spec_id>
+<product_id>1</product_id>
+<spec_value>150</spec_value>
+<spec_name>Area</spec_name>
+<user_id>5</user_id>
+</product_spec>
+<product_spec>
+<spec_id>7</spec_id>
+<product_id>1</product_id>
+<spec_value>2</spec_value>
+<spec_name>Bathrooms</spec_name>
+<user_id>5</user_id>
+</product_spec>
+<product_spec>
+<spec_id>8</spec_id>
+<product_id>1</product_id>
+<spec_value>3</spec_value>
+<spec_name>Rooms</spec_name>
+<user_id>5</user_id>
+</product_spec>
+<product_spec>
+<spec_id>9</spec_id>
+<product_id>1</product_id>
+<spec_value>yes</spec_value>
+<spec_name>Furnished</spec_name>
+<user_id>5</user_id>
+</product_spec>
+</product_specs>
+<product_images>
+<product_image>
+<image_id>1</image_id>
+<image_file_name>
+9eEUN-S7cBBvsOsT3zBsB5dD5OG41IpdbQuHfQ1B8n8,-PixKdXL7B8o3W_aL_IGFqJBfjIU2YalL3Ok3nqwIak.jpg
+</image_file_name>
+<product_id>1</product_id>
+<image_url>
+http://test.jcatpk.com/./content/product_images/9eEUN-S7cBBvsOsT3zBsB5dD5OG41IpdbQuHfQ1B8n8,-PixKdXL7B8o3W_aL_IGFqJBfjIU2YalL3Ok3nqwIak.jpg
+</image_url>
+</product_image>
+</product_images>
+</product>
+</products>
+</xml>

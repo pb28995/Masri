@@ -1,0 +1,173 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From 1-CatalogViewPagerIndicator:
+* pom.xml
+From Rodina Market2:
+* _DS_Store
+* _classpath
+* _project
+* guide\
+* guide\_DS_Store
+* guide\assets\
+* guide\assets\_DS_Store
+* guide\assets\blueprint-css\
+* guide\assets\blueprint-css\ie.css
+* guide\assets\blueprint-css\plugins\
+* guide\assets\blueprint-css\plugins\buttons\
+* guide\assets\blueprint-css\plugins\buttons\icons\
+* guide\assets\blueprint-css\plugins\buttons\icons\cross.png
+* guide\assets\blueprint-css\plugins\buttons\icons\key.png
+* guide\assets\blueprint-css\plugins\buttons\icons\tick.png
+* guide\assets\blueprint-css\plugins\buttons\readme.txt
+* guide\assets\blueprint-css\plugins\buttons\screen.css
+* guide\assets\blueprint-css\plugins\fancy-type\
+* guide\assets\blueprint-css\plugins\fancy-type\readme.txt
+* guide\assets\blueprint-css\plugins\fancy-type\screen.css
+* guide\assets\blueprint-css\plugins\link-icons\
+* guide\assets\blueprint-css\plugins\link-icons\icons\
+* guide\assets\blueprint-css\plugins\link-icons\icons\Thumbs.db
+* guide\assets\blueprint-css\plugins\link-icons\icons\doc.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\email.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\external.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\feed.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\im.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\pdf.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\visited.png
+* guide\assets\blueprint-css\plugins\link-icons\icons\xls.png
+* guide\assets\blueprint-css\plugins\link-icons\readme.txt
+* guide\assets\blueprint-css\plugins\link-icons\screen.css
+* guide\assets\blueprint-css\plugins\rtl\
+* guide\assets\blueprint-css\plugins\rtl\readme.txt
+* guide\assets\blueprint-css\plugins\rtl\screen.css
+* guide\assets\blueprint-css\print.css
+* guide\assets\blueprint-css\screen.css
+* guide\assets\blueprint-css\src\
+* guide\assets\blueprint-css\src\forms.css
+* guide\assets\blueprint-css\src\grid.css
+* guide\assets\blueprint-css\src\grid.png
+* guide\assets\blueprint-css\src\ie.css
+* guide\assets\blueprint-css\src\print.css
+* guide\assets\blueprint-css\src\reset.css
+* guide\assets\blueprint-css\src\typography.css
+* guide\assets\images\
+* guide\assets\images\_DS_Store
+* guide\assets\images\appsettings.png
+* guide\assets\images\import-1.png
+* guide\assets\images\import-2.png
+* guide\assets\images\import-3.png
+* guide\assets\images\import-4.png
+* guide\assets\images\import-5.png
+* guide\assets\images\import-6.png
+* guide\assets\images\import-7.png
+* guide\assets\images\import-8.png
+* guide\assets\images\import-9.png
+* guide\assets\images\parse-create-app-2.png
+* guide\assets\images\parse-create-app-3.png
+* guide\assets\images\parse-create-app-4.png
+* guide\assets\images\parse-create-app.png
+* guide\assets\images\parse-send-mgs-2.png
+* guide\assets\images\parse-send-msg-3.png
+* guide\assets\images\parse-send-msg-4.png
+* guide\assets\images\parse-send-msg.png
+* guide\assets\images\parse-signup.png
+* guide\assets\images\supportlib.PNG
+* guide\assets\images\xml-categories.png
+* guide\assets\images\xml-location.png
+* guide\assets\images\xml-products.png
+* guide\assets\images\xml-slider.png
+* guide\index.html
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+1-android-support-v7-appcompat_Rev21 => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In 1-CatalogViewPagerIndicator:
+* AndroidManifest.xml => _1CatalogViewPagerIndicator\src\main\AndroidManifest.xml
+* assets\ => _1CatalogViewPagerIndicator\src\main\assets
+* res\ => _1CatalogViewPagerIndicator\src\main\res\
+* src\ => _1CatalogViewPagerIndicator\src\main\java\
+In 1-FloatingActionButton:
+* AndroidManifest.xml => _1FloatingActionButton\src\main\AndroidManifest.xml
+* assets\ => _1FloatingActionButton\src\main\assets
+* libs\android-support-v7-recyclerview.jar => _1FloatingActionButton\libs\android-support-v7-recyclerview.jar
+* libs\nineoldandroids-2.4.0.jar => _1FloatingActionButton\libs\nineoldandroids-2.4.0.jar
+* res\ => _1FloatingActionButton\src\main\res\
+* src\ => _1FloatingActionButton\src\main\java\
+In Rodina Market2:
+* arabic.MP3 => arabic.mp3
+* AndroidManifest.xml => rodinaMarket2\src\main\AndroidManifest.xml
+* assets\ => rodinaMarket2\src\main\assets\
+* libs\android-query-full.0.24.3.jar => rodinaMarket2\libs\android-query-full.0.24.3.jar
+* libs\firebaseiid.jar => rodinaMarket2\libs\firebaseiid.jar
+* libs\firebasemessageing.jar => rodinaMarket2\libs\firebasemessageing.jar
+* libs\Parse-1.4.3.jar => rodinaMarket2\libs\Parse-1.4.3.jar
+* libs\simple-xml-2.7.1.jar => rodinaMarket2\libs\simple-xml-2.7.1.jar
+* libs\universal-image-loader-1.8.6.jar => rodinaMarket2\libs\universal-image-loader-1.8.6.jar
+* lint.xml => rodinaMarket2\lint.xml
+* res\ => rodinaMarket2\src\main\res\
+* src\ => rodinaMarket2\src\main\java\
+* english.MP3 => english.mp3
+* error_arabic.MP3 => error_arabic.mp3
+* error_english.MP3 => error_english.mp3
+* star_arabic.MP3 => star_arabic.mp3
+* star_english.MP3 => star_english.mp3
+* welcome.MP3 => welcome.mp3
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

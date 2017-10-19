@@ -1,0 +1,3 @@
+include ':_1CatalogViewPagerIndicator'
+include ':_1FloatingActionButton'
+include ':rodinaMarket2'

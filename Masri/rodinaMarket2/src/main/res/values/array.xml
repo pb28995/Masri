@@ -1,0 +1,46 @@
+<resources>
+<string-array name="listArray">
+	<item>English</item>
+	<item>عربي</item>
+	
+</string-array>
+
+<string-array name="listValues">
+    <item>1</item>
+    <item>2</item>
+</string-array>
+
+
+
+<string-array name="listArray_rt">
+	<item>Tone 1</item>
+	<item>Tone 2</item>
+	<item>Tone 3</item>
+	<item>Tone 4</item>
+	<item>Tone 5</item>
+	<item>Tone 6</item>
+	<item>Tone 7</item>
+	<item>Tone 8</item>
+	<item>Tone 9</item>
+	<item>Tone 10</item>
+	<item>Tone 11</item>
+	
+</string-array>
+
+<string-array name="listValues_rt">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>2</item>
+</string-array>
+
+
+
+</resources>

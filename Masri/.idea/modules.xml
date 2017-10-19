@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Masri.iml" filepath="$PROJECT_DIR$/Masri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_1CatalogViewPagerIndicator/_1CatalogViewPagerIndicator.iml" filepath="$PROJECT_DIR$/_1CatalogViewPagerIndicator/_1CatalogViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_1FloatingActionButton/_1FloatingActionButton.iml" filepath="$PROJECT_DIR$/_1FloatingActionButton/_1FloatingActionButton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rodinaMarket2/rodinaMarket2.iml" filepath="$PROJECT_DIR$/rodinaMarket2/rodinaMarket2.iml" />
+    </modules>
+  </component>
+</project>

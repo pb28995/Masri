@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="firebasemessageing">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rodinaMarket2/libs/firebasemessageing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\sliding_rotate.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\anim\\sliding_rotate.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

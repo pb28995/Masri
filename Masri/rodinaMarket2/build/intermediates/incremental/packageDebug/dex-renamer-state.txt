@@ -1,0 +1,7 @@
+#Tue Oct 17 01:28:56 PKT 2017
+base.0=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_97e734dc25f7d0dbc78ccd8a9f2862fa524de11d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0e9bf3820fd0b8df959df9ee2d6367638637ca18\\classes.dex
+base.1=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0e9bf3820fd0b8df959df9ee2d6367638637ca18
+file.0=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_97e734dc25f7d0dbc78ccd8a9f2862fa524de11d\\classes.dex

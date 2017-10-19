@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\error_arabic.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\error_arabic.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\english.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\english.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\star_english.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\star_english.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\arabic.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\arabic.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\tone.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\tone.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\welcome.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\welcome.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\star_arabic.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\star_arabic.mp3"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\raw\\error_english.mp3",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\raw\\error_english.mp3"
+    }
+]

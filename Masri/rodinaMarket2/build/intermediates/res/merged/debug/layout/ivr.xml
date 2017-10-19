@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dip"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:cursorVisible="false"
+         android:inputType="phone"
+         android:digits="1234567890*"
+         >
+
+        <requestFocus />
+    </EditText>
+   
+</RelativeLayout>
