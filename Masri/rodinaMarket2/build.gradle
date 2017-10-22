@@ -21,8 +21,6 @@ android {
 dependencies {
     compile project(':_1FloatingActionButton')
     compile project(':_1CatalogViewPagerIndicator')
-    compile 'com.android.support:support-v4:21.0.0'
-    compile 'com.android.support:appcompat-v7:21.0.0'
     compile files('libs/android-query-full.0.24.3.jar')
     compile files('libs/firebaseiid.jar')
     compile files('libs/firebasemessageing.jar')
@@ -30,4 +28,8 @@ dependencies {
     compile files('libs/simple-xml-2.7.1.jar')
     compile files('libs/universal-image-loader-1.8.6.jar')
 
+    compile 'com.android.support:support-v4:21.0.0'
+    compile 'com.android.support:appcompat-v7:21.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
 }

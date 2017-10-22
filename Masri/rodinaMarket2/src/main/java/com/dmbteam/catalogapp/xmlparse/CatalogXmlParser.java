@@ -258,8 +258,8 @@ public class CatalogXmlParser {
                     HttpResponse response = httpClient.execute(httpPost);
                    // InputStream reslt = response.getEntity().getContent();
 
-					InputStream reslt = this.context.getAssets().open("pharmacyData.xml");
 
+					InputStream reslt = this.context.getAssets().open("pharmacyData.xml");
 
 
 					if (reslt != null) {

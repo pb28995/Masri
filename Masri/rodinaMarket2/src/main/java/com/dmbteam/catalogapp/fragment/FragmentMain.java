@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import com.Rodina_Market.app.MainActivity;
 import com.Rodina_Market.app.R;
 import com.dmbteam.catalogapp.adapter.MainProductAdapter;
+import com.dmbteam.catalogapp.cmn.Branch;
 import com.dmbteam.catalogapp.cmn.Post;
 
 /**

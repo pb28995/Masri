@@ -142,7 +142,7 @@
         
         <EditText
             android:id="@+id/list_item_filter_adress"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:background="@drawable/cart_preview_et_bg"
@@ -169,8 +169,8 @@
             android:layout_width="100dip"
             android:layout_height="100dip"
             android:layout_gravity="center_horizontal"
-            android:scaleType="centerCrop"
-            android:background="@drawable/uploadicon" />
+            android:background="@drawable/uploadicon"
+            android:scaleType="centerCrop" />
 
         <View
             android:layout_width="fill_parent"

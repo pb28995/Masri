@@ -8,13 +8,15 @@
         android:id="@+id/fra_cart_info_container"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="@android:color/white"
         android:orientation="vertical"
         android:paddingBottom="5dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:paddingTop="10dp" >
+        android:paddingTop="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:id="@+id/fra_cart_tv_saved_label"

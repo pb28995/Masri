@@ -16,6 +16,10 @@
         "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\list_item_filter.xml"
     },
     {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pharmacylist.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\fragment_pharmacylist.xml"
+    },
+    {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -44,8 +48,16 @@
         "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\popup.xml"
     },
     {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pharmacy_list.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\activity_pharmacy_list.xml"
+    },
+    {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\ccustomimage.xml",
         "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\ccustomimage.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pharmacydata.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\fragment_pharmacydata.xml"
     },
     {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -58,6 +70,10 @@
     {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\pager_item_product.xml",
         "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\pager_item_product.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pharmacylist_list.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\fragment_pharmacylist_list.xml"
     },
     {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -138,6 +154,10 @@
     {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
         "source": "C:\\Users\\Murad\\.android\\build-cache\\87b9db95057079ba06e7c6dd3e9542489cd30744\\output\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_pharmacylist2.xml",
+        "source": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\src\\main\\res\\layout\\fragment_pharmacylist2.xml"
     },
     {
         "merged": "D:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

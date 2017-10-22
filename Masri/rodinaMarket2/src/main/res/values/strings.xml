@@ -35,24 +35,24 @@
     <string name="mandatory_fields">Please fill all mandatory fields</string>
     <string name="order_summary">Order Summary</string>
     <string name="transition_cover">My Transition</string>
-     <string name="signuplink"><a href="#">Not Registered ? </a></string>
-     <string name="web"><a href="http://www.rodinamarket.com">www.rodinamarket.com </a></string>
-     <string name="sss">Marketing Campaigns\nApp Development           \nSMS services       \nWebsite Development\nFacebook Marketing \nGoogle Marketing   \nMedia Marketing    </string>
+    <string name="signuplink"><a href="#">Not Registered ? </a></string>
+    <string name="web"><a href="http://www.rodinamarket.com">www.rodinamarket.com </a></string>
+    <string name="sss">Marketing Campaigns\nApp Development           \nSMS services       \nWebsite Development\nFacebook Marketing \nGoogle Marketing   \nMedia Marketing    </string>
     <string name="emltxt">Email</string>
-     <string name="calltxt">Call</string>
-     <string name="sharetxt">Share</string>
-	 <string name="addtocartxt">Add to cart  </string>
-	 <string name="ordersent">order sent</string>
-     <string name="ordernotsent">order not sent\nnetwork issue</string>
-     <string name="no_number_available">no number available</string>
-	
-	   <string name="aboutapp">About App</string>
-	   <string name="stng1">Language</string>
-	   <string name="stng2">Select Language</string>
-	 
-	        <string name="tone">Ringtonew</string>
-	   <string name="select_tone">Select Ringtone</string>
-	   
-	   <string name="adress">Adress</string>
-	     
+    <string name="calltxt">Call</string>
+    <string name="sharetxt">Share</string>
+    <string name="addtocartxt">Add to cart  </string>
+    <string name="ordersent">order sent</string>
+    <string name="ordernotsent">order not sent\nnetwork issue</string>
+    <string name="no_number_available">no number available</string>
+
+    <string name="aboutapp">About App</string>
+    <string name="stng1">Language</string>
+    <string name="stng2">Select Language</string>
+
+    <string name="tone">Ringtonew</string>
+    <string name="select_tone">Select Ringtone</string>
+
+    <string name="adress">Adress</string>
+
 </resources>

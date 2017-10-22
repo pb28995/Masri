@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:2:1-162:12
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:2:1-123:12
 	package
 		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
@@ -15,240 +15,258 @@ ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:2:1-16
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:7:4-66
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:7:21-63
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:8:2-76
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:8:19-73
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:9:2-78
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:9:19-75
-uses-permission#android.permission.VIBRATE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:10:2-63
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:10:19-60
-uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:11:2-65
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:11:19-62
-uses-permission#android.permission.CALL_PHONE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:12:2-65
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:12:19-63
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:13:2-68
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:13:19-65
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:14:2-75
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:14:19-73
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:15:3-78
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:15:20-76
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:16:2-79
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:16:19-76
-permission#com.Rodina_Market.app.permission.C2D_MESSAGE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:17:2-112
-	android:protectionLevel
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:17:74-109
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:17:14-73
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:19:2-78
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:19:19-75
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:21:4-79
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:21:21-76
-uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:23:2-90
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:23:19-88
-uses-permission#com.Rodina_Market.app.permission.C2D_MESSAGE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:24:2-81
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:24:19-78
-uses-feature#android.hardware.camera
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:25:2-70
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:25:16-54
 uses-sdk
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:28:5-30:41
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:7:5-9:41
 MERGED from [Masri:_1FloatingActionButton:unspecified] D:\Data\Masri\Masri\_1FloatingActionButton\build\intermediates\bundles\default\AndroidManifest.xml:5:5-7:40
 MERGED from [Masri:_1CatalogViewPagerIndicator:unspecified] D:\Data\Masri\Masri\_1CatalogViewPagerIndicator\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:40
 MERGED from [com.android.support:appcompat-v7:21.0.0] C:\Users\Murad\.android\build-cache\87b9db95057079ba06e7c6dd3e9542489cd30744\output\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Murad\.android\build-cache\a73eb578de85a2a9bd28fdfa3ee1f36be4dfc249\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Murad\.android\build-cache\a65d7b5efd6b1ff6e795558a2d71e1e9bc94c2cf\output\AndroidManifest.xml:15:5-42
 	android:targetSdkVersion
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:30:9-38
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:29:9-35
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:8:9-35
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
 		INJECTED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:14:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:16:22-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:17:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:19:22-78
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:20:5-82
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:20:22-79
+permission#com.Rodina_Market.app.permission.C2D_MESSAGE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:23:9-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:27:22-77
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:28:5-94
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:28:22-91
+uses-permission#com.Rodina_Market.app.permission.C2D_MESSAGE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:29:22-81
+uses-feature#android.hardware.camera
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:31:5-60
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:31:19-57
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:33:5-75
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:33:22-72
 application
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:32:5-160:19
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:35:5-121:19
 MERGED from [Masri:_1FloatingActionButton:unspecified] D:\Data\Masri\Masri\_1FloatingActionButton\build\intermediates\bundles\default\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:appcompat-v7:21.0.0] C:\Users\Murad\.android\build-cache\87b9db95057079ba06e7c6dd3e9542489cd30744\output\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Murad\.android\build-cache\a73eb578de85a2a9bd28fdfa3ee1f36be4dfc249\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\AndroidManifest.xml:17:5-19:19
 MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Murad\.android\build-cache\a65d7b5efd6b1ff6e795558a2d71e1e9bc94c2cf\output\AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:36:9-41
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:39:9-41
 	android:allowBackup
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:34:9-35
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:37:9-35
 	android:icon
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:35:9-38
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:38:9-38
 	android:theme
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:37:9-44
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:40:9-44
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:33:9-41
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:36:9-42
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:43:5-45:67
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:41:9-43:71
 	android:value
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:45:9-64
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:43:13-68
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:44:9-54
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:42:13-58
 activity#com.Rodina_Market.app.Spalsh
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:47:9-58:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:45:9-50:20
 	android:screenOrientation
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:50:13-49
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:48:13-49
 	android:label
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:49:13-45
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:48:13-35
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:52:13-55:29
-action#android.intent.action.MAIN
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:53:17-69
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:53:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:54:17-77
-	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:54:27-74
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:46:13-35
 activity#com.Rodina_Market.app.Settings
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:60:11-65:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:51:9-54:52
 	android:screenOrientation
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:63:13-49
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:54:13-49
 	android:label
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:62:13-45
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:53:13-45
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:61:13-37
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:52:13-37
 activity#com.Rodina_Market.app.MainActivity
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:67:9-75:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:55:9-58:52
 	android:screenOrientation
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:70:13-49
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:58:13-49
 	android:label
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:69:13-45
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:57:13-45
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:68:13-41
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:56:13-41
 activity#com.Rodina_Market.app.IVR
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:79:10-87:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:59:9-63:58
 	android:screenOrientation
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:82:13-49
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:62:13-49
 	android:label
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:81:13-45
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:61:13-45
 	android:windowSoftInputMode
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:83:13-55
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:63:13-55
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:80:13-32
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:60:13-32
 service#com.parse.PushService
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:89:10-58
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:65:9-57
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:89:19-55
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:65:18-54
 receiver#com.parse.ParseBroadcastReceiver
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:95:10-100:14
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:67:9-72:20
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:95:20-67
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:67:19-66
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:96:4-99:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:68:13-71:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:97:5-67
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:69:17-79
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:97:13-64
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:69:25-76
 action#android.intent.action.USER_PRESENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:98:5-65
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:70:17-77
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:98:13-62
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:70:25-74
 receiver#com.Rodina_Market.app.ParseReceiver
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:103:11-109:14
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:73:9-79:20
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:103:21-50
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:73:19-48
 intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT+my.app.package
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:104:4-108:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:74:13-78:29
 action#my.app.package
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:107:5-45
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:77:17-57
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:107:13-42
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:77:25-54
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:112:10-121:14
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:80:9-89:20
 	android:permission
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:113:4-64
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:82:13-73
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:112:20-65
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:81:13-58
 intent-filter#com.Rodina_Market.app+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:114:4-120:20
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:83:13-88:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:115:5-69
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:84:17-81
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:115:13-66
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:84:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:116:5-74
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:85:17-86
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:116:13-71
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:85:25-83
 category#com.Rodina_Market.app
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:119:5-54
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:87:17-66
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:119:15-51
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:87:27-63
 service#com.Rodina_Market.app.GeofenceTransitionsIntentService
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:124:3-87
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:91:9-93:40
 	android:exported
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:124:61-85
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:93:13-37
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:124:12-60
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:92:13-61
 activity#com.Rodina_Market.app.imageSlider
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:129:1-131:35
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:95:9-49
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:129:11-38
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:95:19-46
 activity#com.Rodina_Market.app.Popup
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:134:19-136:35
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:96:9-98:59
 	android:theme
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:135:23-66
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:98:13-56
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:134:29-50
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:97:13-34
 activity#com.Rodina_Market.app.SignUp
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:138:19-140:35
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:99:9-44
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:138:29-51
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:99:19-41
 activity#com.Rodina_Market.app.aboutusActivity
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:142:19-144:35
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:100:9-53
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:142:29-60
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:100:19-50
 service#com.Rodina_Market.app.MyFirebaseMessagingService
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:147:3-152:11
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:102:9-106:19
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:148:5-47
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:102:18-60
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:149:5-151:21
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:103:13-105:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:150:9-69
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:104:17-78
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:150:17-67
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:104:25-75
 service#com.Rodina_Market.app.MyFirebaseInstanceIDService
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:153:1-158:11
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:107:9-111:19
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:154:5-48
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:107:18-61
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:155:5-157:21
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:108:13-110:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:156:9-71
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:109:17-80
 	android:name
-		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:156:17-69
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:109:25-77
+activity#com.Rodina_Market.app.ParmacyListMainActivity
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:113:9-120:20
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:113:19-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:115:13-119:29
+action#android.intent.action.MAIN
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:116:17-69
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:116:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:118:17-77
+	android:name
+		ADDED from D:\Data\Masri\Masri\rodinaMarket2\src\main\AndroidManifest.xml:118:27-74
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\AndroidManifest.xml:18:60-113

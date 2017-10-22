@@ -1,4 +1,4 @@
-#Tue Oct 17 01:28:56 PKT 2017
+#Sun Oct 22 13:48:44 PKT 2017
 base.0=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_97e734dc25f7d0dbc78ccd8a9f2862fa524de11d
 renamed.1=classes2.dex
 renamed.0=classes.dex

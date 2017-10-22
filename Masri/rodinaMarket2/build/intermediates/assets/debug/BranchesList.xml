@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmlB>
+    <branches>
+        <branch>
+            <branch_id>13</branch_id>
+            <branch_name>Yu Ma Kahin Ga, sakar ma hn na</branch_name>
+            <branch_name_ar>nnnn</branch_name_ar>
+            <branch_icon>https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAz4AAAAJGYwOGE4ZTUyLWI1MjAtNDM5MC05ZTYzLTMwMDc2MjU5ZGZjNw.jpg</branch_icon>
+            <branch_status>1</branch_status>
+            <latitude>0.00000000</latitude>
+            <longitude>0.00000000</longitude>
+            <user_id>0</user_id>
+            <parent>13</parent>
+            <date_created>2017-10-04 06:57:53</date_created>
+        </branch>
+		
+		<branch>
+            <branch_id>14</branch_id>
+            <branch_name>Ali Farjaaaz</branch_name>
+            <branch_name_ar>nnnn</branch_name_ar>
+            <branch_icon>https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAjnAAAAJGI3MDMxOTlkLTMxNjAtNDAyMS04NTc2LWJlMGFiZmFmNzA1Ng.jpg</branch_icon>
+            <branch_status>1</branch_status>
+            <latitude>0.00000000</latitude>
+            <longitude>0.00000000</longitude>
+            <user_id>0</user_id>
+            <parent>13</parent>
+            <date_created>2017-10-04 06:57:53</date_created>
+        </branch>
+		
+		<branch>
+            <branch_id>15</branch_id>
+            <branch_name>Ali Murad Khan</branch_name>
+            <branch_name_ar>nnnn</branch_name_ar>
+            <branch_icon>http://static2-cdn.i2cinc.com/wp-content/uploads/2017/07/amir_wain_hover.png</branch_icon>
+            <branch_status>1</branch_status>
+            <latitude>0.00000000</latitude>
+            <longitude>0.00000000</longitude>
+            <user_id>0</user_id>
+            <parent>13</parent>
+            <date_created>2017-10-04 06:57:53</date_created>
+        </branch>
+    </branches>
+</xmlB>

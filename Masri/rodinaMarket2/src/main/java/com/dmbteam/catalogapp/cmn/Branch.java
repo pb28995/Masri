@@ -111,9 +111,20 @@ public class Branch {
         @Element
         private  String date_created;
 
-        @ElementList
+    public String getBranch_icon() {
+        return branch_icon;
+    }
+
+    public void setBranch_icon(String branch_icon) {
+        this.branch_icon = branch_icon;
+    }
+
+    @Element
+        private  String branch_icon;
+
+        @ElementList (required = false)
         private List<Category> categories;
-        @ElementList
+        @ElementList (required = false)
         private List<Category> sub_categories;
 
     public List<Category> getCategories() {
@@ -140,7 +151,7 @@ public class Branch {
         this.posts = posts;
     }
 
-    @ElementList
+    @ElementList(required = false)
         private List<Post> posts;
 
 

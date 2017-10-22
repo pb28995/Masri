@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="bdb1f4837e8d7ac32f3102db538464de39374073">
+        sha1="78538d39d53c114c4ae70900e207307bbe28fdd6">
         <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_97e734dc25f7d0dbc78ccd8a9f2862fa524de11d\classes.dex" />
     </item>
     <item
@@ -117,6 +117,15 @@
         revision="26.0.1"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
         <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff54f7c16031cd2a6aed219451c6b8cbb3951d23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d549ba44e12ddbbc7ecbd55b5237575b97548ca\classes.dex" />
     </item>
 
 </items>

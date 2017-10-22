@@ -132,6 +132,7 @@
                     <post_type>1</post_type>
                     <post_code>101</post_code>
                     <name>Vigra</name>
+					
                     <name_ar>فيتاماكس</name_ar>
                     <category>4</category>
                     <sub_category>4</sub_category>
@@ -158,11 +159,14 @@
                     <status>1</status>
                     <impressions>0</impressions>
                     <creation_date>2017-08-04 10:04:36</creation_date>
-                    <parent_category_name>Vitamins</parent_category_name>
+                    <parent_category_name>Vitaminkjbks</parent_category_name>
                     <parent_category_name_ar>فيتامينات</parent_category_name_ar>
                     <sub_category_name/>
                     <sub_category_name_ar/>
 					<product_images>
+					<product_image>
+					<image_url>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</image_url>
+					</product_image>
 					<product_image>
 					<image_url>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</image_url>
 					</product_image>
