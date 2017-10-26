@@ -7,7 +7,7 @@ import org.simpleframework.xml.Root;
 /**
  * The Class Catalog.
  */
-@Root(strict=false)
+@Root(strict=false,name = "xml")
 public class xmlB {
 
     @ElementList

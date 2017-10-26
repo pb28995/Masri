@@ -20,6 +20,8 @@ android {
 
 dependencies {
     compile project(':_1FloatingActionButton')
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
     compile project(':_1CatalogViewPagerIndicator')
     compile files('libs/android-query-full.0.24.3.jar')
     compile files('libs/firebaseiid.jar')

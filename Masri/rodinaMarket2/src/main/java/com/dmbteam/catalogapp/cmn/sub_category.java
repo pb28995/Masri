@@ -54,16 +54,9 @@ public class sub_category {
 		this.status = status;
 	}
 
-	public int getBranch_id() {
-		return branch_id;
-	}
 
-	public void setBranch_id(int branch_id) {
-		this.branch_id = branch_id;
-	}
 
-	@Element
-	int branch_id;
+
 
 
 	@Element(required = false)

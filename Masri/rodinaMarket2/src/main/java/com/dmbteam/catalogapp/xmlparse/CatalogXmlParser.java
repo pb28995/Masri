@@ -157,11 +157,18 @@ public class CatalogXmlParser {
 	 */
 	public Category findCategoryById(int id) {
 		for (int i = 0; i < mCatalog.getAllCategories().size(); i++) {
-			if (mCatalog.getAllCategories().get(i).getId() == id) {
-				return mCatalog.getAllCategories().get(i);
-			}
-		}
+            if (mCatalog.getAllCategories().get(i).getId() == id) {
+                return mCatalog.getAllCategories().get(i);
+                
+            }
+            for (int z = 0; z < mCatalog.getAllCategories().get(i).getSub_categories().size(); z++) {
+                if (mCatalog.getAllCategories().get(i).getSub_categories().get(z).getId() == id) {
+                    return mCatalog.getAllCategories().get(i).getSub_categories().get(z);
+                }
 
+            }
+
+        }
 		return null;
 	}
 
@@ -214,8 +221,8 @@ public class CatalogXmlParser {
 	 * The Class CatalogXmlNetworkStremReader.
 	 */
 	private class CatalogXmlNetworkStremReader extends
-			AsyncTask<Void, Void, Boolean> {
-
+			AsyncTask<Void, Void, Boolean>
+		{
 		/** The context. */
 		private Context context;
 
@@ -240,10 +247,10 @@ public class CatalogXmlParser {
 
             try {
 
-                HttpPost httpPost = new HttpPost(AppSettings.apiEndpoint);
+                HttpPost httpPost = new HttpPost("http://ph.togetherpro.com/dev/index.php/api/branches");
                 List<NameValuePair> nameValuePair = new ArrayList<NameValuePair>(2);
-                nameValuePair.add(new BasicNameValuePair("type", "pharmacydata"));
-                nameValuePair.add(new BasicNameValuePair("pharmacy_id", AppSettings.cid));
+                nameValuePair.add(new BasicNameValuePair("type", "branchdata"));
+                nameValuePair.add(new BasicNameValuePair("branch_id", String.valueOf(AppSettings.branchID)));
 
                 //Encoding POST data
                 try {
@@ -256,10 +263,9 @@ public class CatalogXmlParser {
 
                 try {
                     HttpResponse response = httpClient.execute(httpPost);
-                   // InputStream reslt = response.getEntity().getContent();
+                    InputStream reslt = response.getEntity().getContent();
 
-
-					InputStream reslt = this.context.getAssets().open("pharmacyData.xml");
+                    //InputStream reslt = this.context.getAssets().open("pharmacyData.xml");
 
 
 					if (reslt != null) {

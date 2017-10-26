@@ -65,4 +65,15 @@ public class Spec {
 
     @Element (required = false)
     private  String spec_value;
+
+    public String getSpec_value_ar() {
+        return spec_value_ar;
+    }
+
+    public void setSpec_value_ar(String spec_value_ar) {
+        this.spec_value_ar = spec_value_ar;
+    }
+
+    @Element (required = false)
+    private  String spec_value_ar;
 }

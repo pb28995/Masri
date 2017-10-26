@@ -154,8 +154,10 @@ public class ItemsPagerAdapter extends PagerAdapter implements IconPagerAdapter 
  
 		TextView categoryView = (TextView) mainLayout
 				.findViewById(R.id.pager_item_product_category);
-		categoryView.setText(CatalogXmlParser.getInstance()
-				.findCategoryById(currentProduct.getCategory()).getTitle());
+
+
+
+		categoryView.setText(CatalogXmlParser.getInstance().findCategoryById(currentProduct.getCategory()).getTitle());
 
 		
 		TextView discountInfo = (TextView) mainLayout

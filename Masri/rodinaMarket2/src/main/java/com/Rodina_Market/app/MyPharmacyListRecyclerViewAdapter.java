@@ -1,5 +1,7 @@
 package com.Rodina_Market.app;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -9,27 +11,28 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 import com.dmbteam.catalogapp.fragment.PharmacyListFragment.OnListFragmentInteractionListener;
 import com.dmbteam.catalogapp.cmn.Branch;
+import com.dmbteam.catalogapp.settings.AppSettings;
+import com.squareup.picasso.Picasso;
 
 import java.io.InputStream;
 import java.util.List;
 
-/**
- * {@link RecyclerView.Adapter} that can display a {@link DummyItem} and makes a call to the
- * specified {@link OnListFragmentInteractionListener}.
- * TODO: Replace the implementation with code for your data type.
- */
-public class MyPharmacyListRecyclerViewAdapter extends RecyclerView.Adapter<MyPharmacyListRecyclerViewAdapter.ViewHolder> {
+import static com.Rodina_Market.app.R.id.imageView;
+public class MyPharmacyListRecyclerViewAdapter extends  RecyclerView.Adapter<MyPharmacyListRecyclerViewAdapter.ViewHolder> {
 
     private final List<Branch> mValues;
     private final OnListFragmentInteractionListener mListener;
-
-    public MyPharmacyListRecyclerViewAdapter(List<Branch> items, OnListFragmentInteractionListener listener) {
+    private Context context;
+    public MyPharmacyListRecyclerViewAdapter(List<Branch> items,Context c, OnListFragmentInteractionListener listener) {
         mValues = items;
+        context = c;
         mListener = listener;
     }
 
@@ -37,33 +40,43 @@ public class MyPharmacyListRecyclerViewAdapter extends RecyclerView.Adapter<MyPh
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.fragment_pharmacylist2, parent, false);
+
         return new ViewHolder(view);
     }
 
 
     @Override
-    public void onBindViewHolder(final ViewHolder holder, int position) {
+    public void onBindViewHolder(final ViewHolder holder,final int position) {
         holder.mItem = mValues.get(position);
         holder.mIdView.setText(mValues.get(position).getBranch_name());
 
-        new DownloadImageTask(holder.branchImage)
-                .execute(mValues.get(position).getBranch_icon());
+        Picasso.with(context).load(mValues.get(position).getBranch_icon())
+                .placeholder(R.drawable.bosslogo)
+                .into(holder.branchImage);
+
+
+
 
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (null != mListener) {
-                    // Notify the active callbacks interface (the activity, if the
-                    // fragment is attached to one) that an item has been selected.
-                    mListener.onListFragmentInteraction(holder.mItem);
-                }
+
+                Toast.makeText(context,String.valueOf(mValues.get(position).getBranch_name()),3).show();
+                Intent i = new Intent(context, MainActivity.class);
+                AppSettings.branchID = mValues.get(position).getBranch_id();
+                context.startActivity(i);
+
             }
         });
     }
 
     @Override
     public int getItemCount() {
-        return mValues.size();
+        if (mValues != null) {
+            return mValues.size();
+        }else{
+            return 0;
+        }
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -88,28 +101,5 @@ public class MyPharmacyListRecyclerViewAdapter extends RecyclerView.Adapter<MyPh
         }
     }
 
-    private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
-        ImageView bmImage;
 
-        public DownloadImageTask(ImageView bmImage) {
-            this.bmImage = bmImage;
-        }
-
-        protected Bitmap doInBackground(String... urls) {
-            String urldisplay = urls[0];
-            Bitmap mIcon11 = null;
-            try {
-                InputStream in = new java.net.URL(urldisplay).openStream();
-                mIcon11 = BitmapFactory.decodeStream(in);
-            } catch (Exception e) {
-                Log.e("Error", e.getMessage());
-                e.printStackTrace();
-            }
-            return mIcon11;
-        }
-
-        protected void onPostExecute(Bitmap result) {
-            bmImage.setImageBitmap(result);
-        }
-    }
 }

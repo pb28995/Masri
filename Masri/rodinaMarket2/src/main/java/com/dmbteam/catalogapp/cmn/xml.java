@@ -2,6 +2,8 @@ package com.dmbteam.catalogapp.cmn;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
@@ -15,10 +17,12 @@ public class xml {
 	//@ElementList
 	//private List<Category> categories;
 
+    @Element
+    public  Branch branch;
 
 	public Branch getMyBranCh(){
 
-		return  getBranches().get(0);
+		return  branch;
 	}
 	public List<Branch> getBranches() {
 		return branches;
@@ -28,8 +32,18 @@ public class xml {
 		this.branches = branches;
 	}
 
-	@ElementList
+//	@ElementList
 	public List<Branch> branches;
+
+    public Branch getBranch() {
+        return branch;
+    }
+
+    public void setBranch(Branch branch) {
+        this.branch = branch;
+    }
+
+
 
 
 
@@ -43,6 +57,7 @@ public class xml {
 
 	// All categories with hierarchy
 	/** The Predefines categories. */
+
 	private ArrayList<Category> mPredefinesCategories;
 
 	// All categories for adapter
@@ -53,7 +68,15 @@ public class xml {
 	public void setsubCatogries(){
 
 		List<Category>ct=new ArrayList<Category>();
-		List<Category>temp=getMyBranCh().getSub_categories();
+		List<Category>temp=new ArrayList<Category>();
+
+		for (Category cat : getMyBranCh().getCategories()){
+
+			for (Category sub_cat : cat.getSub_categories()){
+
+				temp.add(sub_cat);
+			}
+		}
 
 		for (Category sub : temp) {
 

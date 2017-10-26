@@ -1,6 +1,7 @@
 package com.dmbteam.catalogapp.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,6 +9,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
 
 
 import com.Rodina_Market.app.MyPharmacyListRecyclerViewAdapter;
@@ -78,14 +82,22 @@ public class PharmacyListFragment extends android.support.v4.app.Fragment {
         // Set the adapter
         if (view instanceof RecyclerView) {
             Context context = view.getContext();
+          //  mListener = (OnListFragmentInteractionListener) context;
+
             RecyclerView recyclerView = (RecyclerView) view;
             if (mColumnCount <= 1) {
                 recyclerView.setLayoutManager(new LinearLayoutManager(context));
             } else {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
-            recyclerView.setAdapter(new MyPharmacyListRecyclerViewAdapter(mAdapterData, mListener));
+            final MyPharmacyListRecyclerViewAdapter ad = new MyPharmacyListRecyclerViewAdapter(mAdapterData,context, mListener);
+            recyclerView.setAdapter(ad);
+
         }
+
+
+
+
         return view;
     }
 

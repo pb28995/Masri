@@ -18,6 +18,7 @@ public class AppSettings {
      * ThemeGreen, ThemeBlue, ThemeOrange, ThemePurple, ThemeDarkBlue, ThemeNeutral, ThemePink
      */
 
+    public static  int branchID = 0;
     public static final APP_THEMES CURRENT_THEME = ThemeGreen;
     public static final boolean useCommaForPrices = false;
     public static final String applicationId = "396WguSXHPPKCP2jBsUKw7b8qkPAyxhOsjDcJ2u6";

@@ -1,4 +1,4 @@
-#Tue Oct 17 00:58:06 PKT 2017
+#Thu Oct 26 23:32:21 PKT 2017
 base.0=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
 renamed.0=classes.dex
 file.0=D\:\\Data\\Masri\\Masri\\rodinaMarket2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex

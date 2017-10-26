@@ -25,7 +25,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import static com.Rodina_Market.app.R.id.imageView;
-import static com.Rodina_Market.app.R.id.webviewForYoutubeVideo;
 
 public class CustomPagerAdapter extends PagerAdapter {
 
@@ -76,29 +75,9 @@ public class CustomPagerAdapter extends PagerAdapter {
                     getCount()));
         }
 
-        final WebView  webViewForYouTube = (WebView) itemView.findViewById(R.id.webviewForYoutubeVideo);
         final ImageView imageView = (ImageView) itemView.findViewById(R.id.imageView);
 
         String uril = mResources.get(position).getImage_url();
-        if (uril.toLowerCase().contains("youtube")) {
-            imageView.setVisibility(View.GONE);
-            webViewForYouTube.getSettings().setJavaScriptEnabled(true);
-
-            uril = uril.replace("https://www.youtube.com/watch?v=","");
-
-
-            webViewForYouTube.loadData("<iframe width=\"854\" height=\"480\" src=\"" +
-                    "" +
-                    "https://www.youtube.com/embed/" +
-                    uril +
-                    "\" frameborder=\"0\" allowfullscreen></iframe>", "text/html", "UTF-8");
-
-            webViewForYouTube.setVisibility(View.VISIBLE);
-            container.addView(itemView);
-
-
-        } else {
-            webViewForYouTube.setVisibility(View.GONE);
             mImageLoader.displayImage(uril,
                     imageView, ImageOptionsBuilder
                             .buildGeneralImageOptions(false, R.drawable.home_nexus9));
@@ -133,7 +112,7 @@ public class CustomPagerAdapter extends PagerAdapter {
 
             container.addView(itemView);
 
-        }
+
 
 
         return itemView;

@@ -91,24 +91,24 @@ public class Branch {
 
 
 
-       @Element
+       @Element (required = false)
         private int branch_id;
 
-        @Element
+        @Element (required = false)
         private String branch_name;
-        @Element
+        @Element (required = false)
         private String branch_name_ar;
-        @Element
+        @Element (required = false)
         private String branch_status;
-        @Element
+        @Element (required = false)
         private Double latitude;
-        @Element
+        @Element (required = false)
         private Double longitude;
-        @Element
+        @Element (required = false)
         private String user_id;
-        @Element
+        @Element (required = false)
         private  String parent;
-        @Element
+        @Element (required = false)
         private  String date_created;
 
     public String getBranch_icon() {
@@ -119,7 +119,7 @@ public class Branch {
         this.branch_icon = branch_icon;
     }
 
-    @Element
+    @Element (required = false)
         private  String branch_icon;
 
         @ElementList (required = false)

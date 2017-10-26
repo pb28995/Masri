@@ -2,130 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0e9bf3820fd0b8df959df9ee2d6367638637ca18\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\firebasemessageing.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\firebasemessageing_3daf540f4906d638d0122c4c8d69ba01f8c13267\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Data\Masri\Masri\_1FloatingActionButton\build\intermediates\bundles\default\libs\android-support-v7-recyclerview.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="d47fa206ffbe921a73201ffbfbc368708a7a9f39">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v7-recyclerview_1e8d15aa7bb3fa6b1912b6df1fbc311cd951d308\classes.dex" />
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_1e8d15aa7bb3fa6b1912b6df1fbc311cd951d308.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Data\Masri\Masri\_1CatalogViewPagerIndicator\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="78538d39d53c114c4ae70900e207307bbe28fdd6">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_97e734dc25f7d0dbc78ccd8a9f2862fa524de11d\classes.dex" />
+        sha1="45d30e588169170c75f3f9eb72991104815fd556">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\classes_353448b179c0c9db04a123d51604bbb0e1638e30.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\simple-xml-2.7.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\firebasemessageing.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="083623424bcfa03bd598e709765bad0816c2375d">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\simple-xml-2.7.1_345a01f63906a9974a39bccf75a10e66cf522ad9\classes.dex" />
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\firebasemessageing_3daf540f4906d638d0122c4c8d69ba01f8c13267.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Murad\.android\build-cache\a65d7b5efd6b1ff6e795558a2d71e1e9bc94c2cf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a132b4d85f704b240427be8d3498e5ec4aabbbe7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Data\Masri\Masri\rodinaMarket2\libs\android-query-full.0.24.3.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="bd4b958b6817244d4e6f74ce5f4dbd8001974b77">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\android-query-full.0.24.3_ceff296884da96a1f660fd8c7da097901323a0f1\classes.dex" />
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\android-query-full.0.24.3_ceff296884da96a1f660fd8c7da097901323a0f1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\Parse-1.4.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8daf146aea8cd5245bb90f802f2cd4b8dd855eca">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.4.3_c2291ff71a14d501c0be82488f6eecb10838112a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Data\Masri\Masri\_1FloatingActionButton\build\intermediates\bundles\default\libs\nineoldandroids-2.4.0.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\8\nineoldandroids-2.4.0_4559a1411b64cbafaba7ada3f902c02a77d5c0b4\classes.dex" />
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0_4559a1411b64cbafaba7ada3f902c02a77d5c0b4.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Data\Masri\Masri\rodinaMarket2\libs\universal-image-loader-1.8.6.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="09995ba681982ca129af798c9eb21e79c4bffa45">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.8.6_c6c4fad6248cd230753c56c816c3379c81b8ad53\classes.dex" />
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\universal-image-loader-1.8.6_c6c4fad6248cd230753c56c816c3379c81b8ad53.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Murad\.android\build-cache\a65d7b5efd6b1ff6e795558a2d71e1e9bc94c2cf\output\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_e5dfba5f0b0db3cd5ef88a4be6631fe827902b2d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="D:\Data\Masri\Masri\rodinaMarket2\libs\firebaseiid.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\2\firebaseiid_93c305ab0ce1808859660b6cdc8e6517352ab164\classes.dex" />
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\firebaseiid_93c305ab0ce1808859660b6cdc8e6517352ab164.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Murad\.android\build-cache\87b9db95057079ba06e7c6dd3e9542489cd30744\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ff54f7c16031cd2a6aed219451c6b8cbb3951d23\classes.dex" />
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\simple-xml-2.7.1_345a01f63906a9974a39bccf75a10e66cf522ad9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Murad\.android\build-cache\4afe22da47ebe5c0a1688c1d236df0a7d3194e2e\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="D:\Data\Masri\Masri\_1FloatingActionButton\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d549ba44e12ddbbc7ecbd55b5237575b97548ca\classes.dex" />
+        sha1="a5b2269665eb28576ce21899eaf5f5628d4b21a1">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\classes_3d488e17650af156e4f675c53310eedc6591128f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Data\Masri\Masri\rodinaMarket2\libs\Parse-1.4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8daf146aea8cd5245bb90f802f2cd4b8dd855eca">
+        <dex dex="D:\Data\Masri\Masri\rodinaMarket2\build\intermediates\pre-dexed\debug\Parse-1.4.3_c2291ff71a14d501c0be82488f6eecb10838112a.jar" />
     </item>
 
 </items>

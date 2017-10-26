@@ -23,16 +23,16 @@ public class Category implements Comparable<Category> {
 
 	/** The sub categories ids. */
 	private List<Integer> subCategoriesIds;
+
+	@ElementList (required = false)
+	private List<Category> sub_categories;
 	
-	//@ElementList
-	private List<sub_category>sub_categories;
-	
-	public List<sub_category> getSub_categories() {
-		if(sub_categories==null)return new ArrayList<sub_category>();
+	public List<Category> getSub_categories() {
+		if(sub_categories==null)return new ArrayList<Category>();
 		return sub_categories;
 	}
 
-	public void setSub_categories(List<sub_category> sub_categories) {
+	public void setSub_categories(List<Category> sub_categories) {
 		this.sub_categories = sub_categories;
 	}
 
@@ -54,7 +54,7 @@ public class Category implements Comparable<Category> {
 	private int status;
 	@Element
 	private int category_order;
-	@Element
+	@Element (required = false)
 	private  int branch_id;
 
 	public String getThumbnail() {
@@ -171,8 +171,11 @@ public class Category implements Comparable<Category> {
 	 *
 	 * @return the title
 	 */
-	public String getTitle() {
+	public String getTitle()
+	{
+		if (category_name != null)
 		return category_name;
+		return "";
 	}
 	public void setTitle(String x){
 		category_name=x;

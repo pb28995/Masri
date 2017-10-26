@@ -1,69 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xml>
-    <branches>
-        <branch>
-            <branch_id>14</branch_id>
-            <branch_name>nnnn</branch_name>
-            <branch_name_ar>nnnn</branch_name_ar>
-            <branch_icon>branch_14.png</branch_icon>
-            <branch_status>1</branch_status>
-            <latitude>0.00000000</latitude>
-            <longitude>0.00000000</longitude>
-            <user_id>0</user_id>
-            <parent>13</parent>
-            <date_created>2017-10-04 06:57:53</date_created>
-            <categories>
-                <category>
-                    <category_id>1</category_id>
-                    <category_name>Cosmetics</category_name>
-                    <category_name_ar>مستحضرات</category_name_ar>
-                    <thumbnail>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</thumbnail>
-                    <parent_id>0</parent_id>
-                    <category_order>3</category_order>
-                    <status>1</status>
-                    <branch_id>13</branch_id>
-                </category>
-                <category>
-                    <category_id>2</category_id>
-                    <category_name>Medicine</category_name>
-                    <category_name_ar>دواء</category_name_ar>
-                    <thumbnail>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</thumbnail>
-                    <parent_id>0</parent_id>
-                    <category_order>3</category_order>
-                    <status>1</status>
-                    <branch_id>13</branch_id>
-                </category>
-            </categories>
-            <sub_categories>
-                <sub_category>
-                    <category_id>3</category_id>
-                    <category_name>SUBCosmetics</category_name>
-                    <category_name_ar>مستحضرات</category_name_ar>
-                    <thumbnail>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</thumbnail>
-                    <parent_id>2</parent_id>
-                    <category_order>3</category_order>
-                    <status>1</status>
-                    <branch_id>13</branch_id>
-                </sub_category>
-                <sub_category>
-                    <category_id>4</category_id>
-                    <category_name>SUBMedicine</category_name>
-                    <category_name_ar>دواء</category_name_ar>
-                    <thumbnail>https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAsgAAAAJDM2ODA1ZDBhLWYyMTEtNGNlNC05NTM5LTEwN2U5ZDk2YTgyZQ.jpg</thumbnail>
-                    <parent_id>2</parent_id>
-                    <category_order>3</category_order>
-                    <status>1</status>
-                    <branch_id>13</branch_id>
-                </sub_category>
-            </sub_categories>
-            <posts>
+    <branch>
+        <categories>
+            <category>
+                <category_id>3</category_id>
+                <category_name>Cosmetics</category_name>
+                <category_name_ar>مستحضرات</category_name_ar>
+                <thumbnail>http://ph.togetherpro.com/dev/./content/category_thumbnails/category_3.jpg</thumbnail>
+                <parent_id>0</parent_id>
+                <category_order>3</category_order>
+                <status>1</status>
+                <branch_id>14</branch_id>
+                <sub_categories/>
+            </category>
+            <category>
+                <category_id>2</category_id>
+                <category_name>Vitamins</category_name>
+                <category_name_ar>فيتامينات</category_name_ar>
+                <thumbnail>http://ph.togetherpro.com/dev/./content/category_thumbnails/category_2.png</thumbnail>
+                <parent_id>0</parent_id>
+                <category_order>1</category_order>
+                <status>1</status>
+                <branch_id>14</branch_id>
+                <sub_categories>
+                    <sub_category>
+                        <category_id>5</category_id>
+                        <category_name>new test cat</category_name>
+                        <category_name_ar>ar</category_name_ar>
+                        <thumbnail>http://ph.togetherpro.com/dev/./content/category_thumbnails/category_5.jpg</thumbnail>
+                        <parent_id>2</parent_id>
+                        <category_order>1</category_order>
+                        <status>1</status>
+                    </sub_category>
+                </sub_categories>
+            </category>
+        </categories>
+       <posts>
                 <post>
                     <post_id>1</post_id>
                     <post_type>1</post_type>
                     <post_code>101</post_code>
                     <name>VitaMax</name>
                     <name_ar>فيتاماكس</name_ar>
-                    <category>3</category>
+                    <category>5</category>
                     <sub_category>4</sub_category>
                     <description>Vitamax is effective multivitamin product</description>
                     <description_ar>فيتاماكس مجموعة فيتامينات مؤثرة وممتازة</description_ar>
@@ -107,7 +86,7 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                         <spec>
                             <spec_id>2</spec_id>
@@ -115,7 +94,7 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test1</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                         <spec>
                             <spec_id>3</spec_id>
@@ -123,7 +102,7 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test2</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                     </specs>
                 </post>
@@ -181,7 +160,7 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                         <spec>
                             <spec_id>2</spec_id>
@@ -189,7 +168,7 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test1</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                         <spec>
                             <spec_id>3</spec_id>
@@ -197,11 +176,10 @@
                             <spec_value/>
                             <spec_value_ar/>
                             <spec_name>test2</spec_name>
-                            <category_id>2</category_id>
+                            <category_id>5</category_id>
                         </spec>
                     </specs>
                 </post>
             </posts>
-        </branch>
-    </branches>
+    </branch>
 </xml>

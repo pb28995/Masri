@@ -53,13 +53,14 @@ public class Post {
         this.post_type = post_type;
     }
 
-    public int getPost_code() {
+    public String getPost_code() {
         return post_code;
     }
 
     public String getPhoto(Context context) {
-
+        if ( getProduct_images().size() > 0)
         return getProduct_images().get(0).getImage_url();
+        return  "bosslogo";
     }
     public static boolean isNetworkResource(String resource) {
 
@@ -72,9 +73,13 @@ public class Post {
     }
 
     public boolean isNetworkResource() {
+    if(getProduct_images().size() > 0) {
 
-        String url=getProduct_images().get(0).getImage_url().trim();
+
+        String url = getProduct_images().get(0).getImage_url().trim();
         return url.startsWith("http");
+    }else
+        return true;
     }
     public  int getDrawableId(Context context) {
         return context.getResources().getIdentifier(getPhoto(context), "drawable",
@@ -106,7 +111,7 @@ public class Post {
                 context.getPackageName());
     }
 
-    public void setPost_code(int post_code) {
+    public void setPost_code(String post_code) {
         this.post_code = post_code;
     }
 
@@ -356,7 +361,7 @@ public class Post {
     @Element
     private int post_type;
     @Element
-    private int post_code;
+    private String post_code;
     @Element
     private String name;
     @Element
@@ -369,7 +374,7 @@ public class Post {
     private String description;
     @Element
     private String description_ar;
-    @Element
+    @Element (required = false)
     private String sales_phone;
     @Element
     private int ivr_enabled;
@@ -386,13 +391,13 @@ public class Post {
     private int delivery_cost;
     @Element
     private String price_currency_symbol;
-    @Element
+    @Element (required = false)
     private int quantity;
 
 
     @Element
     private int zero_stock;
-    @Element
+    @Element (required = false)
     private String youtube_url;
     @Element
     private int button_order_now;
